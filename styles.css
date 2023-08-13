@@ -1,1 +1,23 @@
 /* your code */
+table{
+	width:100%;
+	height:100%;
+	border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+thead{
+	background-color:#265ff0;
+	color:white;
+	text-align:left;
+}
+thead th:nth-child(1) {
+  width: 30%;
+}
+tr:nth-child(even) {
+  background-color:#87ccfa;
+}
+th,td{
+	padding:9px;
+}
